@@ -22,6 +22,8 @@ html {
 
 body {
   margin: 0;
+  font-size: 12px;
+  font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
 }
 
 /**
@@ -341,4 +343,14 @@ template {
 	content:"";
 	overflow: hidden;
 	clear: both;
+}
+
+
+/**
+ * 模型改变
+ */
+*,:after,:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
